@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        html, body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            min-height: 100%;
+        }
+
+        body {
+            background: #000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .image-container {
+            position: relative;
+            width: min(100vw, 420px);
+            line-height: 0;
+        }
+
+        .main-image {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        .click-area {
+            position: absolute;
+            left: 18%;
+            top: 77.5%;
+            width: 72%;
+            height: 13%;
+            display: block;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image-container">
+        <img src="Michelle.jpg" class="main-image" alt="">
+
+        <a
+            class="click-area"
+            href="https://onlyfans.com/michelle.sanchez100"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Click here"
+        ></a>
+    </div>
+</body>
+</html>
